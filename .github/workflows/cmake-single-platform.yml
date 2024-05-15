@@ -5,10 +5,10 @@ name: CMake on a single platform
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
   workflow_dispatch: # Adding manual trigger
   
 env:
